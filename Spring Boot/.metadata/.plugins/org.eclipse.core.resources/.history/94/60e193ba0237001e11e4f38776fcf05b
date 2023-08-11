@@ -1,0 +1,17 @@
+package kodlama.io.rentACar.business.concretes;
+
+import java.util.List;
+
+import kodlama.io.rentACar.business.abstracts.BrandService;
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+//public class BrandService { ya da aşağıdaki gibi olabilir
+public class BrandManager implements BrandService {
+
+	@Override
+	public List<Brand> getAll() {
+		// iş kuralları
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+//public interface BrandDao { ya da aşağıdaki yazım ile
+@Repository // IoC
+public interface BrandRepository {
+	List<Brand> getAll();
+}

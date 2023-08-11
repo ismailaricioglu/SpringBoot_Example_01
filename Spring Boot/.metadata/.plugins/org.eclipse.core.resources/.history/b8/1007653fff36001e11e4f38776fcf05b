@@ -1,0 +1,6 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+//public interface BrandDao { ya da aşağıdaki yazım ile
+public interface BrandRepository {
+
+}

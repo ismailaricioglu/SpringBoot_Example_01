@@ -1,0 +1,6 @@
+package kodlama.io.rentACar.business.concretes;
+
+//public class BrandService {
+public class BrandManager {
+
+}

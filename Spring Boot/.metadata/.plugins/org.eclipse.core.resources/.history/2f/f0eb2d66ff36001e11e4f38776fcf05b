@@ -1,0 +1,8 @@
+package kodlama.io.rentACar.dataAccess.abstracts;
+
+import kodlama.io.rentACar.entities.concretes.Brand;
+
+//public interface BrandDao { ya da aşağıdaki yazım ile
+public interface BrandRepository {
+	List<Brand> getAll();
+}

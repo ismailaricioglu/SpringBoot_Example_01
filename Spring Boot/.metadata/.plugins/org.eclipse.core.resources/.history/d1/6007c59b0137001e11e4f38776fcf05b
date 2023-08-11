@@ -1,0 +1,6 @@
+package kodlama.io.rentACar.business.concretes;
+
+//public class BrandService { ya da aşağıdaki gibi olabilir
+public class BrandManager {
+
+}
